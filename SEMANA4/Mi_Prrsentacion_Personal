@@ -1,0 +1,13 @@
+#Pedir al usuario su nombre, edad, ciudad
+#Mostrar los datos en pantalla
+#Comparar si la edad es mayor o igual es a 18
+# Mostrar el resultado de la comparacion
+
+
+Nombre=input ("¿Cual es su nombre?")
+edad=int(input("¿Cual es su edad?"))
+ciudad=input("¿Cual es su ciudad? ")
+
+print("hola, mi nombre es:","Fabian Sanchez")
+print("Tengo", 20,)
+print("Soy de", "Bogota D.C")
