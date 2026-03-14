@@ -1,0 +1,17 @@
+#Pedir temperatura en celsius 
+#Convertir a Fahrenheit
+#Convertir a Kelvin
+#Mostrar resultados 
+#Comparar si es mayor que 37
+
+Celsius= float (input("Ingrese temperatura en celsius"))
+fahrenheit= (Celsius * 9/5) + 32
+kelvin= Celsius + 273.18
+
+print ("Temperatura en Celcius:" , Celsius)
+print ("Temperatura en fahrenheit:", fahrenheit)
+print ("Tempeeratura en kelvin:", kelvin)
+
+resultado= Celsius > 37
+
+print ("Supera temperatura de fiebre:", resultado)
