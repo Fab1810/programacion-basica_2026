@@ -1,0 +1,21 @@
+#Pedir nombre peso y altura
+#Calcular IMC = peso/altura
+#Verificar si 18.5<= IMC <= 25.7
+
+
+
+
+nombre=input ("Nombre:")
+peso=float(input("Peso (kg):"))
+altura=float(input("Altura (m):"))
+
+imc= peso / (altura ** 2)
+
+print ("Nombre:",nombre)
+print ("peso:", peso)
+print ("altura:",altura)
+print ("imc:",imc)
+
+rango_normal = imc >= 18.5 and imc <= 25.7
+
+print("IMC en rango normal (18.5-25.7)?:",rango_normal)
