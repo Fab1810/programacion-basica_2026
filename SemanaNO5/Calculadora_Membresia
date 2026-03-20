@@ -1,0 +1,25 @@
+# Calculadora de descuenbto por membresia
+#Debe ejecutar el descuento
+#Debe eaplicar el descuento
+membresia = input("Membresía (regular, silver, gold): ").lower()
+compra = int(input("Valor de compra: "))
+rebajas = input("¿Es temporada de rebajas? (s/n): ").lower() == 's'
+
+descuento = 0
+envio_gratis = False
+
+if membresia == "gold":
+    descuento = 20
+    if compra > 100000:
+        envio_gratis = True
+elif membresia == "silver" and compra > 50000:
+    descuento = 10
+elif membresia == "regular":
+    descuento = 0
+
+if rebajas:
+    descuento += 5
+
+precio_final = compra * (1 - descuento/100)
+msg_envio = " + envío gratis" if envio_gratis else ""
+print(f"Descuento: {descuento}%{msg_envio}. Total: ${int(precio_final)}")
