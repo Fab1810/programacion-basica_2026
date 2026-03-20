@@ -1,0 +1,18 @@
+#Mostrar las tarifas del recorrido del taxi
+hora = int(input("Hora de inicio (0-23): "))
+distancia = float(input("Distancia en km: "))
+
+costo_total = 5000
+
+# Recargo nocturno (9pm a 5am)
+if hora >= 21 or hora <= 5:
+    costo_total *= 1.30
+    print("Recargo nocturno aplicado (30%)")
+
+# Kilómetros extra
+if distancia > 10:
+    km_extra = distancia - 10
+    costo_total += (km_extra * 800)
+    print("Km adicionales: {km_extra}")
+
+print(f"Total a pagar: ${int(costo_total)}")
