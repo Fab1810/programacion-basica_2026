@@ -1,0 +1,13 @@
+#pedir un numero al usuario
+#verificar si es positivo
+#verificar si el numero es negativo
+#verificar si es numero cero
+
+
+numero= int(input("Ingrese un numero positivo:"))
+if numero >=0:
+    print ("El numero es positivo")
+elif numero <0:
+    print ("El numero es negativo")
+else:
+    print ("El numero es cero")
