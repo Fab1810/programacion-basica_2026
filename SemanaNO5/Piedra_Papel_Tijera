@@ -1,0 +1,13 @@
+# Piedra papel o tijera
+#El programa debe ejecutar el juego piedra papel o tijera
+opcion = input("Elige piedra, papel o tijera: ").lower()
+pc = "piedra"
+
+if opcion not in ["piedra", "papel", "tijera"]:
+    print("Opción inválida. Elige piedra, papel o tijera")
+elif opcion == pc:
+    print(f"PC eligió: {pc} | EMPATE")
+elif opcion == "papel":
+    print(f"PC eligió: {pc} | GANASTE: papel le gana a piedra")
+elif opcion == "tijera":
+    print(f"PC eligió: {pc} | PERDISTE: piedra le gana a tijera")
