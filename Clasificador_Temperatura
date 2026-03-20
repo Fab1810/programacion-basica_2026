@@ -1,15 +1,1 @@
-#Clasificar la temperatura 
-#El programa debe ejecutar el clima para cada ocasion
 
-temp = int(input("Ingresa la temperatura en °C: "))
-
-if temp < 5:
-    print("MUY FRÍO: Usa ropa de invierno")
-elif 5 <= temp <= 14:
-    print("FRÍO: Usa una chaqueta abrigada")
-elif 15 <= temp <= 24:
-    print("TEMPLADO: Ropa cómoda de diario")
-elif 25 <= temp <= 34:
-    print("CALIENTE: Ropa ligera")
-else:
-    print("MUY CALIENTE: Hidrátate bien")
