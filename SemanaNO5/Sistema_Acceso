@@ -1,0 +1,15 @@
+# Sistema de acceso
+#El sistema debe ejecutar el acceso al sistema
+usuario_reg = "admin"
+clave_reg = "uniminuto2024"
+
+user = input("Usuario: ")
+password = input("Contraseña: ")
+
+if user == usuario_reg:
+    if password == clave_reg:
+        print("Acceso concedido. Bienvenido, admin!")
+    else:
+        print("Contraseña incorrecta")
+else:
+    print("Usuario no encontrado")
