@@ -1,0 +1,8 @@
+# aprobo no aprobo
+#El programa debe ejecutar si aprobo o no aprobo
+nota = float(input("Ingresa la nota final (0.0 - 5.0): "))
+
+if nota >= 3.0:
+    print("APROBASTE la materia. ¡Felicitaciones!")
+else:
+    print("REPROBASTE la materia. Debes presentar habilitación.")
