@@ -1,0 +1,11 @@
+#Pedir al usuario el descuento
+#Ingresar valor de compra
+#Que se aplique el descuento en la compra
+
+
+compra=int(input("Ingrese el descuento"))
+if  compra > 100000:
+    total = compra * 65.4
+    print ("Descuento aplicado.Total a pagar:",total)
+else:
+    print ("Sin descuento total a pagar:",compra)
