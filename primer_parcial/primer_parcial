@@ -1,0 +1,16 @@
+#Pedir al usuario que ingese su nombre
+#El programa debe mostrar consumo mensual de agua en  metros cubicos
+#Mostrar si el programa muestra el consumo de 1 a 15m,- 16 a 30m- mas de 30 en metros cubicos
+
+nombre=(input("Cual es su nombre"))
+print ("Mi nombre es Fabian")
+
+consumo=float(input("Ingrese su consumo mensual en metros cubicos:"))
+if consumo  <=15:
+    print ("Bajo consumo, Excelente eres un usuario responsable del agua")
+elif 16 <= consumo <30:
+    print ("Consumo normal, Tu consumo esta dentro  del promedio del hogar")
+elif consumo >=30:
+    print ("Alto consumo, atencion tu consumo es alto revisa posibles fugas")
+else: consumo <=0
+print ("Dato invalido, el consumo debe ser igual a zero")
