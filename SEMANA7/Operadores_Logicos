@@ -1,0 +1,6 @@
+edad=float(input("Ingresa tu edad"))
+licencia=input ("¿tiene licencia de conducir? si/no:")
+if edad >=18 and licencia== "si":
+    print ("¡Puedes conducir?!,maneja con cuidado:")
+else:
+    print ("No puedes conducir,nesecitas tener al menos 18 años y una licencia")
