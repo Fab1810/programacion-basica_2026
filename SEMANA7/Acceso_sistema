@@ -1,0 +1,6 @@
+usuario=input ("dame tu usuario:")
+contra=input ("dame la contra:")
+if usuario == "admin" and contra == "1234":
+    print ("puedes acceder ")
+else:
+    print ("Acceso denegado")
