@@ -1,0 +1,7 @@
+pasaporte=input("Usted tiene pasarporte (si/no)")
+visa=input ("usted tiene visa (si/no)")
+exento=input ("Tu pais esta exento de visa (si/no)")
+if pasaporte == "si" and visa== "si" or exento == "si":
+    print ("Puede viajar, buen viaje")
+else:
+    print ("No puede viajar, Revise sus documentos")
