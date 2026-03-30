@@ -1,0 +1,10 @@
+estudiante=input("Eres estudiante (si/no)")
+total=float(input("Ingrese el total de su compra"))
+if estudiante =="si" or total >200000:
+    descuento= total  * 0.15
+    total_final = total - descuento 
+    print ("Descuento aplicado")
+    print ("total a pagar:", total_final)
+else: 
+    print ("Sin descuento. total:",total)
+
