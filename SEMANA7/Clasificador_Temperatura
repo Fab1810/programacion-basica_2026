@@ -1,0 +1,11 @@
+temp=float(input("Ingrese las temperaturas celsius"))
+if temp < 0:
+    print ("Bajo zero")
+elif temp >=0 and temp <15:
+    print ("Fria")
+elif temp >=15 and temp <=25:
+    print ("Temperatura ideal")
+elif temp >=25 and temp <=35:
+    print ("Calida")
+else:
+    print ("Extremo calor ")
