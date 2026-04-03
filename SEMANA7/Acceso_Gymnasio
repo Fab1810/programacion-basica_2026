@@ -1,0 +1,8 @@
+edad=int(input("Ingrese la edad"))
+carnet=input ("¿Tiene un carnet activo? (si/no)")
+pase=input ("¿Tiene pase de invitado? (si/no)")
+con_socio=input ("¿Vien con socio activo? (si7no)")
+if edad >14 and carnet == "si" or pase == "si" or con_socio == "si":
+    print ("RESULTADO, bienvenido al gymasio")
+else:
+    print ("Acceso denegado, al gymnasio")
